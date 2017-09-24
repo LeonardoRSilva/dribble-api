@@ -1,0 +1,19 @@
+@import "variaveis";
+
+body {
+  background: $white-bg;
+  min-height: 75rem;
+  padding-top: 3.5rem;
+}
+
+.container-fluid { max-width: 1200px; }
+
+header {
+
+  padding: 2em 1em;
+  color: $white-bg;
+  margin-bottom: 2em;
+  h1 {
+    font-weight: 200;
+  }
+}
